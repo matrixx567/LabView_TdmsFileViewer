@@ -17,6 +17,7 @@
 		<Item Name="src" Type="Folder">
 			<Item Name="TdmsFileViewer.lvlib" Type="Library" URL="../src/_TDMS File Viewer/TdmsFileViewer.lvlib"/>
 		</Item>
+		<Item Name="TdmsFileViewer.vipb" Type="Document" URL="../TdmsFileViewer.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -87,7 +88,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7E6F7C64-1A0F-4C17-9377-033E8AF0759A}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TdmsFileViewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/TdmsFileViewer.exe</Property>
@@ -100,7 +101,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resources/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{708E74A2-097A-4EE2-ADFA-92D479DA9743}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{110FD2DB-1BC1-41D4-867B-700FCDE9F8C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/TdmsFileViewer.lvlib/TDMS - File Viewer.vi</Property>
